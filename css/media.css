@@ -1,0 +1,228 @@
+@media screen and (max-width: 1400px) {
+    .grid-container_racion {
+        grid-template-columns: 30% 30%;
+        grid-row-gap: 150px;
+        justify-content: center;
+    }
+    
+    .slider_description {
+        margin-left: 100px;
+    }
+
+    .hr_footer {
+        width: 95%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .address {
+        margin-left: 100px;
+    }
+
+    .phone {
+        margin-left: 150px;
+    }
+
+
+    .time {
+        margin-left: 100px; ;
+    }
+
+
+    .cart {
+        margin-left: 180px;
+    }
+
+    .grid-container_racion {
+        grid-column-gap: 50px;
+    }
+
+    .about_us_zagl {
+        margin-top: 0px;
+    }
+
+    .about_us_text {
+        margin-top: 30px;
+    }
+
+    .condition {
+        height: 100%;
+    }
+
+    .map {
+        height: 100%;
+    }
+
+    .link_text {
+        margin-left: 50px;
+    }
+
+    .hr_footer {
+        width: 100%;
+    }
+
+    .footer_down {
+        margin-top: 5px;
+    }
+
+    .img_inst {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 993px) {
+
+    .address {
+        margin-left: 70px;
+    }
+
+    .phone {
+        margin-left: 100px;
+    }
+
+    .time {
+        margin-left: 70px; ;
+    }
+
+    .menu {
+        width: 150px;
+        margin-right: 0;
+    }
+
+    .biznes {
+        margin-right: 0;
+        width: 120px;
+    }
+
+    .detoks {
+        margin-right: 0;
+        width: 70px;
+    }
+
+    .racions {
+        width: 50px;
+    }
+
+    .slider_description {
+        font-size: 16px;
+    }
+
+    .detoks_descr {
+        font-size: 40px;
+    }
+
+    .programma {
+        font-size: 40px;
+    }
+
+    .cost {
+        font-size: 28px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 50px;
+
+    }
+
+    .grid-container_racion {
+        grid-column-gap: 150px;
+    }
+
+    .delivery_descr {
+        margin-left: 20px;
+        width: 30%;
+        margin-right: 115px;
+    }
+
+    .condition_text {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .oplata {
+        margin-left: 80px;
+    }
+    
+    .oferta {
+        margin-left: 80px;
+    }
+    
+    .dostavka {
+        margin-left: 65px;
+    }
+    
+    .politika {
+        margin-left: 63px;
+    }
+}
+
+
+@media screen and (min-width: 320px) {
+
+    .logo {
+        margin-top: 30px;
+        width: 70px;
+        height: 18px;
+    }
+    .address {
+        margin-left: 20px;
+    }
+
+    .phone {
+        margin-left: 20px;
+    }
+
+    .time {
+        margin-left: 20px; ;
+    }
+
+    .cart {
+        margin-left: 25px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .reasons_block {
+        margin-left: 0;
+    }
+
+    .grid-container_racion {
+        grid-template-columns: 1fr;
+    }
+
+    .woman {
+        width: 200px;
+        height: 150px;
+    }
+
+    .about_us_zagl {
+        margin-left: 220px;
+    }
+
+    .oplata {
+        margin-left: 0px;
+    }
+    
+    .oferta {
+        margin-left: 0px;
+    }
+    
+    .dostavka {
+        margin-left: 0px;
+    }
+    
+    .politika {
+        margin-left: 0px;
+    }
+
+    .link_text {
+        margin-left: 10px;
+    }
+}
+
+

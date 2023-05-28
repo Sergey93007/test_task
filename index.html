@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание верстальщика</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">     
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    </head>
+<body>
+    <section class="promo">
+        <div class="container">
+            <header class="header">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                
+                <div class="address">
+                    <img class="map_img" src="img/map.png" alt="point">
+                    <p class="town">Тамбов</p>
+                </div>
+
+                <div class="phone">
+                    <img class="telephone" src="img/telephone.png" alt="phone">
+                    <p class="phone_number">+7 (915) 660 09-09</p>
+                </div>
+
+                <div class="time">
+                    <img class="watch" src="img/watch.png" alt="watch">
+                    <p class="work_time">09:00-21:00</p>
+                </div>
+                <hr class="hr_header">
+            </header>
+        </div>
+    </section>
+    <section class="navigation">
+        <div class="container">
+            <nav class="nav">
+                <p class="menu">Меню ресторана</p>
+                <p class="biznes">Бизнес-ланч</p>
+                <p class="detoks">Детокс</p>
+                <p class="racions">Рационы</p>
+                <img class="cart" src="img/cart.png" alt="shoping-cart">
+                <p class="korzina">Корзина</p>
+            </nav>
+        </div>
+    </section>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                    <div class="slider_description"><p><span class="detoks_descr">Детокс-</span><br>
+                        <span class="programma">программа</span><br><span class ="descr">комплексного очищения организма</span><br>
+                        от <span class="cost">1099</span> руб</p><a href="#yakor"><button class="zakazat">Заказать</button></a>
+                    </div>
+                    <img src="img/Frame 73.png">
+                </div>
+            <div class="swiper-slide"><img src="img/Frame 73.png"></div>
+            <div class="swiper-slide"><img src="img/Frame 73.png"></div>
+            <div class="swiper-slide"><img src="img/Frame 73.png"></div>
+            <div class="swiper-slide"><img src="img/Frame 73.png"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+
+          keyboard: true,
+        });
+      </script>
+
+    <section class="reasons">
+        <div class="container">
+            <div class="grid-container">
+                <div class="reasons_block">
+                    <img class="reasons_img" src="img/Frame 74.png" alt="">
+                    <p class="reason_text">Используем только натуральные продукты, блюда без консервантов и искусственных добавок.
+                    </p>
+                </div>
+                <div class="reasons_block">
+                    <img class="reasons_img" src="img/Frame 75.png" alt="">
+                    <p class="reason_text">Сбалансированное здоровое меню, соответствующее КБЖУ
+                    </p>
+                </div>
+                <div class="reasons_block">
+                    <img class="reasons_img" src="img/Frame 76.png" alt="">
+                    <p class="reason_text">По желанию подберем программу тренировок и составим индивидуальное КБЖУ для любого уровня подготовки.
+                    </p>
+                </div>
+                <div class="reasons_block">
+                    <img class="reasons_img" src="img/Frame 77.png" alt="">
+                    <p class="reason_text">Бесплатная доставка, чтобы сэкономить массу времени и сил для более важных и приятных дел.
+                    </p>
+                </div>
+                    
+            </div>
+        </div>
+    </section>
+
+    <section class="racion">
+        <div class="container">
+            <h2 class="racion_zagl">рационы</h2>
+            <div class="grid-container_racion">
+                    <div class="racion_block">
+                        <img class="racion_img" src="img/Frame 11.png" alt="">
+                        <div class="racion_text"><h3 class="zaglforracion">Баланс</h3><p class="text_descr_racion">Здоровое питание на каждый день
+                            для тех, кто  заботится о своем ежедневном рационе.</p><span class="kkal">~1 800</span><br>
+                            <span class="stoimost">1 190 ₽</span>
+                            <button class="choise">Выбрать</button>
+                        </div>
+                    </div>
+                    <div class="racion_block">
+                        <img class="racion_img" src="img/Frame 13.png" alt="">
+                        <div class="racion_text"><h3 class="zaglforracion">Лайт</h3><p class="text_descr_racion">Четырехразовое меню для похудения, поддержания формы и создания рельефа.</p><span class="kkal">~1 400</span><br>
+                            <span class="stoimost">1 050 ₽</span>
+                            <button class="choise">Выбрать</button>
+                        </div>
+                    </div>
+                    <div class="racion_block">
+                        <img class="racion_img" src="img/Frame 14.png" alt="">
+                        <div class="racion_text"><h3 class="zaglforracion">Супер лайт</h3><p class="text_descr_racion">Быстрое похудение и поддержание формы. Трехразовое меню для быстрого снижения веса без спорта.</p><span class="kkal">~900</span><br>
+                            <span class="stoimost">890 ₽</span>
+                            <button class="choise">Выбрать</button>
+                        </div>
+                    </div>
+                    <div class="racion_block">
+                        <img class="racion_img" src="img/Frame 12.png" alt="">
+                        <div class="racion_text"><h3 class="zaglforracion">масс</h3><p class="text_descr_racion">Сбалансированное питание для поддержания оптимальной формы при тренировках.</p><span class="kkal">~1 800</span><br>
+                            <span class="stoimost">1 490 ₽</span>
+                            <button class="choise">Выбрать</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about_us">
+                <div class="about_us_img">
+                    <img class="woman" src="img/Frame 10.png" alt="cooking">
+                </div>
+                <h2 class="about_us_zagl">о нас</h2>
+                <div class="about_us_descr">
+                    <p class="about_us_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, neque, et leo nulla nisl. Neque parturient elementum habitasse etiam nec. Fermentum justo nam nibh vitae pellentesque integer. Imperdiet habitant tortor est amet tortor viverra. Nulla eget commodo, adipiscing arcu in et risus in.
+                        <br><br>Cras eu molestie consectetur amet at euismod. Nunc elementum lorem pharetra cursus risus eu. Ac feugiat arcu etiam eget sem urna tincidunt lacus. Nec morbi ultrices nulla accumsan adipiscing. Elementum sagittis eu placerat non molestie luctus gravida. Risus laoreet nunc lectus orci. Vitae at augue sagittis. Sed faucibus ultrices elementum faucibus varius leo, vitae. Molestie semper habitant varius eleifend nisi faucibus. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="delivery">
+        <div class="container">
+            <div class="condition">
+                <div class="delivery_descr">
+                    <div id="yakor"></div>
+                    <h2 class="condition_zagl">
+                        Условия ДОСТАВКи
+                    </h2>
+                    <p class="condition_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, neque, et leo nulla nisl. Neque parturient elementum habitasse etiam nec.
+                       <br><br> Fermentum justo nam nibh vitae pellentesque integer. Imperdiet habitant tortor est amet tortor viverra. 
+                    </p>
+                    <button data-modal="obratnay_svyaz" class="condition_btn">Связаться с нами</a>
+                </div>
+                <div class="map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3ddddf988e1010b2f5ca413a93aae1839b44edb099a9cb9d4b715f479120a92f&amp;width=582&amp;height=466&amp;lang=ru_RU&amp;scroll=true"></script>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer_main">
+        <div class="container">
+            <footer class="footer">
+                <div class="link">
+                    <img class="footer_logo" src="img/logofooter.png" alt="logo">
+                    <div class="link_text">
+                        <span class="kontakts">Контакты</span>
+                        <span class="oplata">Оплата</span>
+                        <span class="oferta">Публичная оферта</span>
+                        <br>
+                        <span class="okompanyi">О компании</span>
+                        <span class="dostavka">Доставка</span>
+                        <span class="politika">Политика конфиденцальности</span>
+                    </div>
+                </div>
+                <hr class="hr_footer">
+                <div class="footer_down">
+                    <p class="cookis">© 2022<br>
+                        Мы используем cookies для быстрой и удобной работы сайта. Продолжая пользоваться сайтом, вы принимаете условия обработки персональных данных
+                    </p>
+                    <div class="img_inst">
+                        <img class="instagram" src="img/instagram.png" alt="instagram">
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+    <div class="overlay">
+        <div class="modal" id="obratnay_svyaz">
+            <div class="modal_close">&times;</div>
+            <div class="modal_subtitle">Форма обратной связи</div>
+            <form class="feed-form" action="#">
+                <p class="modal_name"><span class="modal_text">Ваше имя</span><span class="star"> *</span></p>
+                <input name="name" placeholder="" type="text"> 
+                <p class="modal_phone"><span class="modal_text">Телефон</span><span class="star"> *</span></p>
+                <input name="phone" id="phone" placeholder=""> 
+                <button class="button_submit" id="send">Отправить</button>
+                <p class="obrabotka">Нажимая на кнопку, вы соглашаетесь на обработку <a class="personal" href="#">персональных данных</a></p>
+            </form>
+        </div>
+
+        <div class="modal_mini" id="zayavka">
+            <div class="modal_close">&times;</div>
+            <div class="modal_subtitle">Форма обратной связи</div>
+            <form class="feed-form_mini" action="#">
+                <p class="successfully_text">Ваша заявка успешно отправлена.</p>
+                <button class="button_submit" id="close_modal">Закрыть</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery.maskedinput-master/src/jquery.maskedinput.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+</html>
